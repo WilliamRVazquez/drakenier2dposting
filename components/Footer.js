@@ -25,13 +25,20 @@ export default function Footer() {
           </div>
           <div className="px-3 my-3 col-lg text-center">
             <h4>UNETE A LA COMUNIDAD DE NieR</h4>
-            <div className="d-grid grap-2">
+            <div className="">
               <Link
                 href="https://www.facebook.com/groups/1002019186933755"
-                className="btn btn-primary"
+                className="redes mx-3"
                 target="black"
               >
-                <i className="fa-brands fa-facebook"></i> DrakeNieR: 2B Posting
+                <i className="fa-brands fa-facebook"></i>
+              </Link>
+              <Link
+                href="https://discord.gg/j9jPGJvz"
+                className="redes mx-3"
+                target="blank"
+              >
+                <i class="fa-brands fa-discord"></i>
               </Link>
             </div>
           </div>
