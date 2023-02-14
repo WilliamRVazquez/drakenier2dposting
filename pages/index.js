@@ -120,10 +120,10 @@ function home() {
         </div>
 
         {/* Contenido de página principal */}
-        <div className="pt-3 container">
+        <div className="py-3 container">
           <div className="row py-3">
-            <div className="col">
-              <div className="card shadow">
+            <div className="col-lg my-3">
+              <div className="card h-100 shadow">
                 <Image
                   className="card-img-top img-fluid"
                   src="/img/banner3.png"
@@ -131,60 +131,64 @@ function home() {
                   height={200}
                   alt="NieRReplicant"
                 />
-                <h5 className="card-title p-2">NieR Replicant</h5>
-                <p className="card-text p-2">
-                  En un futuro muy, muy lejano la humanidad está al borde de la
-                  extinción.{" "}
-                </p>
-                <p className="card-text p-2">
-                  Una siniestra enfermedad y unas bestias retorcidas amenazan el
-                  mundo.
-                </p>
-                <p className="card-text p-2">
-                  Un chico bondadoso le hace una promesa a su hermana pequeña.
-                  Una mentira milenaria que perdurará en la eternidad...
-                </p>
-                <div className="p-2">
-                  <div className="ratio ratio-16x9">
-                    <iframe
-                      src="https://www.youtube.com/embed/sPcf4pfTqfY"
-                      title="YouTube video player"
-                    ></iframe>
-                  </div>
+                <div className="card-body">
+                  <h5 className="card-title p-2">NieR Replicant</h5>
+                  <p className="card-text p-2">
+                    En un futuro muy, muy lejano la humanidad está al borde de
+                    la extinción.{" "}
+                  </p>
+                  <p className="card-text p-2">
+                    Una siniestra enfermedad y unas bestias retorcidas amenazan
+                    el mundo.
+                  </p>
+                  <p className="card-text p-2">
+                    Un chico bondadoso le hace una promesa a su hermana pequeña.
+                    Una mentira milenaria que perdurará en la eternidad...
+                  </p>
                 </div>
-                <div className="row d-grap gap-2 mx-auto pb-2">
-                  <div className="col">
-                    <Link
-                      href="https://www.xbox.com/es-MX/games/store/nier-replicant-ver122474487139/9NMBK4V30XJR"
-                      className="btn btn-success"
-                      target="black"
-                    >
-                      XBOX
-                    </Link>
+                <div className="card-footer">
+                  <div className="p-2">
+                    <div className="ratio ratio-16x9">
+                      <iframe
+                        src="https://www.youtube.com/embed/sPcf4pfTqfY"
+                        title="YouTube video player"
+                      ></iframe>
+                    </div>
                   </div>
-                  <div className="col">
-                    <Link
-                      href="https://store.playstation.com/es-mx/product/UP0082-CUSA18774_00-0000000000000000"
-                      className="btn btn-primary"
-                      target="black"
-                    >
-                      PLAYSTATION
-                    </Link>
-                  </div>
-                  <div className="col">
-                    <Link
-                      href="https://store.steampowered.com/app/1113560/NieR_Replicant_ver122474487139/"
-                      className="btn btn-secondary"
-                      target="black"
-                    >
-                      PC
-                    </Link>
+                  <div className="row w-100 mx-auto text-center">
+                    <div className="col">
+                      <Link
+                        href="https://www.xbox.com/es-MX/games/store/nier-replicant-ver122474487139/9NMBK4V30XJR"
+                        className="btn btn-success"
+                        target="black"
+                      >
+                        <i class="fa-brands fa-xbox"></i>
+                      </Link>
+                    </div>
+                    <div className="col">
+                      <Link
+                        href="https://store.playstation.com/es-mx/product/UP0082-CUSA18774_00-0000000000000000"
+                        className="btn btn-primary"
+                        target="black"
+                      >
+                        <i class="fa-brands fa-playstation"></i>
+                      </Link>
+                    </div>
+                    <div className="col">
+                      <Link
+                        href="https://store.steampowered.com/app/1113560/NieR_Replicant_ver122474487139/"
+                        className="btn btn-secondary"
+                        target="black"
+                      >
+                        <i class="fa-solid fa-desktop"></i>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col">
-              <div className="card shadow">
+            <div className="col-lg my-3">
+              <div className="card h-100 shadow">
                 <Image
                   className="card-img-top img-fluid"
                   src="/img/banner2.png"
@@ -192,57 +196,61 @@ function home() {
                   height={200}
                   alt="NieRAutomata"
                 />
-                <h5 className="card-title p-2">NieR Automata</h5>
-                <p className="card-text p-2">El futuro lejano…</p>
-                <p className="card-text p-2">
-                  Invasores de otro mundo atacan sin previo aviso, desatando un
-                  nuevo tipo de amenaza: armas conocidas como -formas de vida
-                  mecánicas.-
-                </p>
-                <p className="card-text p-2">
-                  Ante esta amenaza insuperable, la humanidad es expulsada de la
-                  Tierra y se refugia en la Luna.
-                </p>
-                <p className="card-text p-2">
-                  Como 2B, miembro de la recién organizada fuerza militar
-                  androide YoRHa. los jugadores se sumergirán en una feroz
-                  batalla para recuperar el planeta.
-                </p>
-                <div className="p-2">
-                  <div className="ratio ratio-16x9">
-                    <iframe
-                      src="https://www.youtube.com/embed/Rx3v171IWyQ"
-                      title="YouTube video player"
-                    ></iframe>
-                  </div>
+                <div className="card-body">
+                  <h5 className="card-title p-2">NieR Automata</h5>
+                  <p className="card-text p-2">El futuro lejano…</p>
+                  <p className="card-text p-2">
+                    Invasores de otro mundo atacan sin previo aviso, desatando
+                    un nuevo tipo de amenaza: armas conocidas como -formas de
+                    vida mecánicas.-
+                  </p>
+                  <p className="card-text p-2">
+                    Ante esta amenaza insuperable, la humanidad es expulsada de
+                    la Tierra y se refugia en la Luna.
+                  </p>
+                  <p className="card-text p-2">
+                    Como 2B, miembro de la recién organizada fuerza militar
+                    androide YoRHa. los jugadores se sumergirán en una feroz
+                    batalla para recuperar el planeta.
+                  </p>
                 </div>
-                <div className="row d-grap gap-2 mx-auto pb-2">
-                  <div className="col">
-                    <Link
-                      className="btn btn-success"
-                      href="https://www.xbox.com/es-MX/games/store/nierautomata-become-as-gods-edition/bppzvt8bz15n"
-                      target="black"
-                    >
-                      XBOX
-                    </Link>
+                <div className="card-footer">
+                  <div className="p-2">
+                    <div className="ratio ratio-16x9">
+                      <iframe
+                        src="https://www.youtube.com/embed/Rx3v171IWyQ"
+                        title="YouTube video player"
+                      ></iframe>
+                    </div>
                   </div>
-                  <div className="col">
-                    <Link
-                      className="btn btn-primary"
-                      href="https://store.playstation.com/es-mx/product/UP0082-CUSA04551_00-GOTYORHADIGITAL0"
-                      target="black"
-                    >
-                      PLAYSTATION
-                    </Link>
-                  </div>
-                  <div className="col">
-                    <Link
-                      className="btn btn-secondary"
-                      href="https://store.steampowered.com/app/524220/NieRAutomata/"
-                      target="black"
-                    >
-                      PC
-                    </Link>
+                  <div className="row w-100 mx-auto text-center">
+                    <div className="col">
+                      <Link
+                        className="btn btn-success"
+                        href="https://www.xbox.com/es-MX/games/store/nierautomata-become-as-gods-edition/bppzvt8bz15n"
+                        target="black"
+                      >
+                        <i class="fa-brands fa-xbox"></i>
+                      </Link>
+                    </div>
+                    <div className="col">
+                      <Link
+                        className="btn btn-primary"
+                        href="https://store.playstation.com/es-mx/product/UP0082-CUSA04551_00-GOTYORHADIGITAL0"
+                        target="black"
+                      >
+                        <i class="fa-brands fa-playstation"></i>
+                      </Link>
+                    </div>
+                    <div className="col">
+                      <Link
+                        className="btn btn-secondary"
+                        href="https://store.steampowered.com/app/524220/NieRAutomata/"
+                        target="black"
+                      >
+                        <i class="fa-solid fa-desktop"></i>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>

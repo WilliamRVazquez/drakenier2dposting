@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <>
       <footer className="container-fluid">
-        <div className="row p-1">
-          <div className="px-3 col text-center">
+        <div className="row py-2 w-100 mx-auto">
+          <div className="px-3 my-3 col-lg text-center">
             <Image
               className="img-fluid"
               src="/img/Emil_face.png"
@@ -15,7 +15,7 @@ export default function Footer() {
               alt="Emil"
             />
           </div>
-          <div className="px-3 col text-center">
+          <div className="px-3 my-3 col-lg text-center">
             <h4>¿CUÁL ES EL OBJETIVO?</h4>
             <p>
               El objetivo de esta página es el dar información acerca de la saga
@@ -23,7 +23,7 @@ export default function Footer() {
               interesado en la historia puedan saber aun mas de esta.
             </p>
           </div>
-          <div className="px-3 col text-center">
+          <div className="px-3 my-3 col-lg text-center">
             <h4>UNETE A LA COMUNIDAD DE NieR</h4>
             <div className="d-grid grap-2">
               <Link

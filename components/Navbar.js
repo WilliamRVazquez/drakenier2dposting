@@ -25,16 +25,16 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto">
               <Link className="navitem nav-link" aria-current="page" href="/">
-                Inicio
+                <i class="fa-solid fa-house"></i> Inicio
               </Link>
               <Link className="navitem nav-link" href="/pageHistoria">
-                Historias
+              <i class="fa-solid fa-book-open"></i> Historias
               </Link>
               <Link className="navitem nav-link" href="#">
-                Personajes
+              <i class="fa-solid fa-user"></i> Personajes
               </Link>
               <Link className="navitem nav-link" href="#">
-                Extras
+              <i class="fa-solid fa-star"></i> Extras
               </Link>
             </div>
           </div>

@@ -1,7 +1,6 @@
 import "@/styles/bootstrap.min.css";
 import "@/styles/navbarStyles.css";
 import "@/styles/generalStyles.css";
-import "@/styles/fontawesome.min.css";
 import { useEffect } from "react";
 
 export default function App({ Component, pageProps }) {
