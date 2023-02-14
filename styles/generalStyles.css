@@ -1,0 +1,23 @@
+/* body{
+    background-color: #fffffe;
+}
+
+.container{
+    background-color: #dad4bb;
+} */
+
+.card{
+    transition: all 420ms ease;
+}
+.card:hover{
+    transform: translateY(-1%);
+}
+
+footer{
+    margin-top: 5em;
+    background-color: #d1d1d1;
+}
+
+.copy{
+    background-color: #6b6b6b;
+}
