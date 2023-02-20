@@ -38,7 +38,7 @@ export default function Footer() {
                 className="redes mx-3"
                 target="blank"
               >
-                <i class="fa-brands fa-discord"></i>
+                <i className="fa-brands fa-discord"></i>
               </Link>
             </div>
           </div>
@@ -48,6 +48,7 @@ export default function Footer() {
           <p>Copyright &copy; 2023 William Ramses Vázquez Sánchez.</p>
         </div>
       </footer>
+      
     </>
   );
 }

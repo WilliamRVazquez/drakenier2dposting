@@ -122,7 +122,7 @@ function home() {
         {/* Contenido de página principal */}
         <div className="py-3 container">
           <div className="row py-3">
-            <div className="col-lg my-3">
+            <div className="col my-3">
               <div className="card h-100 shadow">
                 <Image
                   className="card-img-top img-fluid"
@@ -162,7 +162,7 @@ function home() {
                         className="btn btn-success"
                         target="black"
                       >
-                        <i className="fa-brands fa-xbox"></i>
+                        <i className="fa-brands fa-xbox"> </i> Comprar
                       </Link>
                     </div>
                     <div className="col">
@@ -171,7 +171,7 @@ function home() {
                         className="btn btn-primary"
                         target="black"
                       >
-                        <i className="fa-brands fa-playstation"></i>
+                        <i className="fa-brands fa-playstation"></i> Comprar
                       </Link>
                     </div>
                     <div className="col">
@@ -180,14 +180,14 @@ function home() {
                         className="btn btn-secondary"
                         target="black"
                       >
-                        <i className="fa-solid fa-desktop"></i>
+                        <i className="fa-solid fa-desktop"></i> Comprar
                       </Link>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg my-3">
+            <div className="col my-3">
               <div className="card h-100 shadow">
                 <Image
                   className="card-img-top img-fluid"
@@ -230,7 +230,7 @@ function home() {
                         href="https://www.xbox.com/es-MX/games/store/nierautomata-become-as-gods-edition/bppzvt8bz15n"
                         target="black"
                       >
-                        <i className="fa-brands fa-xbox"></i>
+                        <i className="fa-brands fa-xbox"></i> Comprar
                       </Link>
                     </div>
                     <div className="col">
@@ -239,7 +239,7 @@ function home() {
                         href="https://store.playstation.com/es-mx/product/UP0082-CUSA04551_00-GOTYORHADIGITAL0"
                         target="black"
                       >
-                        <i className="fa-brands fa-playstation"></i>
+                        <i className="fa-brands fa-playstation"></i> Comprar
                       </Link>
                     </div>
                     <div className="col">
@@ -248,7 +248,7 @@ function home() {
                         href="https://store.steampowered.com/app/524220/NieRAutomata/"
                         target="black"
                       >
-                        <i className="fa-solid fa-desktop"></i>
+                        <i className="fa-solid fa-desktop"></i> Comprar
                       </Link>
                     </div>
                   </div>
