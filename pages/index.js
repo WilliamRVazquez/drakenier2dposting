@@ -122,7 +122,7 @@ function home() {
         {/* Contenido de página principal */}
         <div className="py-3 container">
           <div className="row py-3">
-            <div className="col my-3">
+            <div className="col-lg my-3">
               <div className="card h-100 shadow">
                 <Image
                   className="card-img-top img-fluid"
@@ -180,14 +180,14 @@ function home() {
                         className="btn btn-secondary"
                         target="black"
                       >
-                        <i className="fa-solid fa-desktop"></i> Comprar
+                        <i className="fa-brands fa-steam"></i> Comprar
                       </Link>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col my-3">
+            <div className="col-lg my-3">
               <div className="card h-100 shadow">
                 <Image
                   className="card-img-top img-fluid"
@@ -248,7 +248,7 @@ function home() {
                         href="https://store.steampowered.com/app/524220/NieRAutomata/"
                         target="black"
                       >
-                        <i className="fa-solid fa-desktop"></i> Comprar
+                        <i className="fa-brands fa-steam"></i> Comprar
                       </Link>
                     </div>
                   </div>
